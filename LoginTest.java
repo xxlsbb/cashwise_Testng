@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import utilieties.Driver;
 
 public class LoginTest {
+    // salam from remote
 
 //    HomePage homePage = new HomePage();
     LogInPage logInPage = new LogInPage();
