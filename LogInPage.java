@@ -1,5 +1,4 @@
 package logIn;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +14,7 @@ public class LogInPage {
         this.driver = Driver.getDriver();
         PageFactory.initElements(driver, this);
     }
+    //salam ot command line to loc
     @FindBy(xpath = "//button[@class=\"MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root css-1wgjx4y\"]")
     public WebElement signIn ;
 
